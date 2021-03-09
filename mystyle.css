@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(180, 52%, 96%);
+    font-family: Spartan;
+}
+
+.btn-one{
+    background: hsl(180, 8%, 52%);
+    width: 60px;
+    border-radius: 10px;
+    border: solid  hsl(180, 8%, 52%);
+    color: white;
+    font-size: 10px;
+}
+
+p{
+    color: hsl(180, 8%, 52%);
+}
+
+th{
+    color: hsl(180, 8%, 52%);
+}
+
+span{
+    margin-left: 20px;
+}
+
+.btn-two{
+    background:  hsl(180, 14%, 20%);
+    width: 100px;
+    border-radius: 10px;
+    border: solid   hsl(180, 14%, 20%);
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+}
+
+
+.btn-f{
+    background: hsl(180, 31%, 95%);
+    border: solid 1px hsl(180, 31%, 95%);
+    border-radius: 10px;
+}
+
+
+.btn-c{
+    background: hsl(180, 31%, 95%);
+    border: solid 1px hsl(180, 31%, 95%);
+    border-radius: 10px;
+}
+
+.btn-h{
+    background: hsl(180, 31%, 95%);
+    border: solid 1px hsl(180, 31%, 95%);
+    border-radius: 10px;
+}
+
+.btn-s{
+    background: hsl(180, 31%, 95%);
+    border: solid 1px hsl(180, 31%, 95%);
+    border-radius: 10px;
+}
+
+.btn-j{
+    background: hsl(180, 31%, 95%);
+    border: solid 1px hsl(180, 31%, 95%);
+    border-radius: 10px;
+}
+
+@media(max-width: 768px){
+   
+    .header{
+        width: 100%;
+    }
+
+    table{
+        position: relative;
+        right: 20px;
+    }
+
+    span{
+        position: relative;
+        right: 20px;
+    }
+
+    .btn-one{
+        position: relative;
+        right: 20px;
+        width: 30%;
+        top: 2px;
+    }
+
+    .btn-two{
+        position: relative;
+        right: 25px;
+    }
+
+    .img{
+        width: 40%;
+    }
+
+    img{
+        width: 40%;
+    }
+
+    .row{
+    width: 100;
+    }
+ 
+}
